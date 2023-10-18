@@ -1,0 +1,8 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+header{
+    background-color: white;
+}
