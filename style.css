@@ -1,8 +1,43 @@
 body{
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-image: url(./bilder/bbq_kyckling_med_potatisgratang_och_gurksallad\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 header{
     background-color: white;
+    grid-column: 2 / 2;
+    height: 90%;
+    border-radius: 1%;
+    text-align: center;
+    font-size: larger;
+}
+
+main{
+    display:grid;
+    grid-column: 2/2;
+    grid-template-columns: 50% 50%;
+}
+
+h1{text-align: center;
+
+}
+
+nav{
+    background-color: white;
+    grid-column: 1 / 1;
+    width: 70%;
+    font-size: 130%;
+    border-radius: 1%;
+}
+
+img{        
+    grid-column: 2/2;
+    width: 100%;
+    height: 100%;
+    border: solid white 3px;
+    border-radius: 1%;
 }
