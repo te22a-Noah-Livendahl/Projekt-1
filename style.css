@@ -1,10 +1,11 @@
 body{
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     background-image: url(./bilder/bbq_kyckling_med_potatisgratang_och_gurksallad\ 1.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    gap: 6%;
 }
 
 header{
@@ -13,7 +14,7 @@ header{
     height: 90%;
     border-radius: 1%;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 main{
@@ -29,9 +30,13 @@ h1{text-align: center;
 nav{
     background-color: white;
     grid-column: 1 / 1;
-    width: 70%;
-    font-size: 130%;
+    width: 75%;
+    font-size: x-large;
     border-radius: 1%;
+    
+}
+a{
+    color: black;
 }
 
 img{        
@@ -40,4 +45,30 @@ img{
     height: 100%;
     border: solid white 3px;
     border-radius: 1%;
+}
+
+section{
+    display:grid;
+    grid-column: 2/2;
+    grid-template-columns: 50% 50%;
+}
+article{
+    grid-column: 2 / 2;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.mellanrum{
+    padding-bottom: 3%;
+}
+
+h2{
+    text-align: center;
+}
+.bild2{
+    grid-column: 1 / 1;
+    grid-row: 1/2;
+    width: 90%;
+    padding-top: 10%;
 }
