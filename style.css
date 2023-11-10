@@ -54,6 +54,8 @@ article{
     grid-column: 2 / 2;
     background-color: white;
     width: 100%;
+    font-size: 150%;
+    height: 90%;
 }
 ol{
     text-align: left;
@@ -81,14 +83,3 @@ aside{
     padding-top: 500%;
 }
 
-h3{
-    background-color: white;
-    width: 90%;
-    text-align: center;
-    border: solid white 3px;
-    border-radius: 2%;
-}
-.bild2{
-    border: solid white 3px;
-    border-radius: 1%;
-}
